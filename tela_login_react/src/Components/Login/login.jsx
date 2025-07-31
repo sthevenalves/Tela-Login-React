@@ -13,7 +13,18 @@ const login = () => {
           <input type="password" placeholder='Senha'/>
           <FaLock className="icon" />
         </div>
+        <div className="recall-forget">
+          <label htmlFor="">
+            <input type="checkbox" />
+            Lembre de Mim
+          </label>
+          <a href="#">Esqueceu a Senha?</a>
+        </div>
+        
         <button>Entrar</button>
+      <div className="singup-link">
+        <p>Não tem uma conta? <a href="#">Registrar</a></p>
+      </div>
       </form>
     </div>
   )
